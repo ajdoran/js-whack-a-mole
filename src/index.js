@@ -224,7 +224,7 @@ function whack(event) {
   // TODO: Write your code here.
   updateScore()
   playAudio(audioHit);
-  audioHit.volume = 0.80;
+  audioHit.volume = 0.5;
   return points;
 
 }
