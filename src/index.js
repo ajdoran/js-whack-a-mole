@@ -224,7 +224,7 @@ function whack(event) {
   // TODO: Write your code here.
   updateScore()
   playAudio(audioHit);
-  audioHit.volume = 0.25;
+  audioHit.volume = 0.80;
   return points;
 
 }
@@ -294,7 +294,7 @@ window.addEventListener('mouseup', () => {
 startButton.addEventListener("click", startGame);
 
 // --------------   audio     --------------------
-const audioHit = new Audio("https://github.com/gabrielsanchez/erddiagram/blob/main/hit.mp3?raw=true");
+const audioHit = new Audio("https://github.com/ajdoran/js-whack-a-mole/blob/main/src/assets/bonk.mp3?raw=true");
 const song = new Audio("https://github.com/gabrielsanchez/erddiagram/blob/main/molesong.mp3?raw=true");
 
 function playAudio(audioObject) {
